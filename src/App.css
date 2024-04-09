@@ -1,0 +1,132 @@
+.body {
+  font-family: "rajdhani";
+}
+
+.appointmentName {
+  font-weight: 700;
+  text-align: center;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000000;
+}
+
+.appointmentReason {
+  /* Style as needed */
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: 400px;
+  color: #000000;
+
+}
+
+.appointmentSlot {
+  position: relative;
+  min-width: 100px;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.appointmentBlock {
+  display: inline-block;
+  position: relative;
+  background-color: #58c3ff69;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  height: 100px;
+  width: 300px;
+  margin-right: 2px;
+  /* Adjust the margin as needed */
+  margin-top: 10px;
+}
+
+.main_login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "rajdhani";
+  height: 100vh;
+}
+
+
+
+
+.sub-container {
+  width: 380px;
+  position: relative;
+}
+
+.input-field {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  border-bottom: 1px solid #000000;
+  border-radius: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: border-bottom-color 0.3s;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+.sub-container:hover .input-field {
+  border: 1px solid rgba(10, 163, 110, 0.5);
+  border-bottom: 2px solid #0aa36e;
+}
+
+.submitBtn {
+  background-color: #0aa36e;
+  width: 100%;
+  height: 48px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  gap: 0px;
+  background-color: white;
+  color: #0aa36e;
+  padding: 0 20px;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.logout-button {
+  background-color: #ef4444;
+  margin-right: 40px;
+  color: white;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  transition: background-color 0.3s ease;
+}
+
+.logo {
+  color: #0AA36E;
+  width: 144.31px;
+  font-size: 30px;
+  font-weight: 700;
+  height: 50.62px;
+}
+
+
+
+.logout-button:hover {
+  background-color: #cc4444;
+}
